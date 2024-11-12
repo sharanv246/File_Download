@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>GFG</title>
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href=
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" 
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <i class="fas fa-download"></i>
+        <h2 style="color: green;">
+            S H A R A N File Downloader
+        </h2>
+        <p>Enter File URL:</p>
+        <input type="url" id="fileUrl" 
+               placeholder="Enter file URL" required>
+        <button onclick="downFn()" id="downloadBtn">
+            Download
+        </button>
+        <div id="error-message"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
